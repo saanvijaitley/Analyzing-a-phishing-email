@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Email Analysis Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .section {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Task 2: Phishing Email Analysis</h1>
+
+  <div class="section">
+    <h2>Objective</h2>
+    <p>Analyze a suspicious email to identify phishing indicators, such as spoofed addresses, fake links, urgent tone, and poor grammar.</p>
+  </div>
+
+  <div class="section">
+    <h2>Tools Used</h2>
+    <ul>
+      <li>Basic text editor (Notepad)</li>
+      <li>Email header analyzer (MXToolbox)</li>
+      <li>Web browser for link inspection</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Phishing Indicators Found</h2>
+    <ul>
+      <li><strong>Spoofed Sender:</strong> Email claimed to be from a bank, but sender domain was fake.</li>
+      <li><strong>Suspicious Link:</strong> Displayed link looked safe, but real URL redirected to unknown site.</li>
+      <li><strong>Urgent Language:</strong> Email warned of account deactivation if user didn't act fast.</li>
+      <li><strong>Generic Greeting:</strong> "Dear Customer" instead of name.</li>
+      <li><strong>Grammar Errors:</strong> Minor spelling and formatting mistakes.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Conclusion</h2>
+    <p>This email exhibited multiple phishing signs. Users should avoid clicking suspicious links and verify with the organization directly. This task demonstrates how to critically evaluate suspicious emails.</p>
+  </div>
+
+</body>
+</html>
+
+
+## Sample email
+Subject: Urgent Action Required - Account Suspended
+Date:   12 May 2021 23:21:48 +0200
+From:   support@bank-verify.com(link sends e-mail)>
+To:     recipient@berkeley.edu(link sends e-mail)
+
+Dear Customer,
+
+We have detected suspicious activity on your bank account. Your access has been temporarily suspended for security reasons.
+
+To restore access, please verify your account immediately: http://secure-bank-login-support.com
+
+Failure to verify your account within 24 hours will result in permanent suspension.
+
+Thank you,  
+Bank Security Team  
+
+
+
+ 1. Sender Information
+- Email Address: support@bank-verify.com
+- Suspicious Traits: Domain not linked to a real bank (spoofed domain).
+
+ 2. Subject Line
+- Text: "Urgent Action Required - Account Suspended"
+- Phishing Trait: Creates urgency and fear to provoke quick action.
+
+ 3. Suspicious Link
+- Link Text:http://secure-bank-login-support.com
+- Real Destination: Not a legitimate banking domain, uses HTTP (not secure).
+- Trait: Mismatched and unsafe URL.
+
+ 4. Email Content Traits
+- Urgency:"verify your account within 24 hours"
+- Threats:"permanent suspension"
+- Language Pressuring and manipulative tone.
+
+ 5. Grammar and Format
+- Generic greeting: “Dear Customer”
+- Inconsistent tone and minor grammar issues.
+
+ 6. Attachments
+-  (none in the sample), phishing emails often include malicious attachments to access the data.
+
+ 7. Conclusion
+This email is a clear phishing attempt, with spoofed sender identity, a suspicious and unsafe link, and psychological tactics designed to panic the recipient into clicking a fraudulent link.
+
+Recommendation for people:
+ Never click on suspicious links or share sensitive information via email. Report phishing attempts to your email provider or cybersecurity team.
+
